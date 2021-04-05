@@ -74,3 +74,4 @@ bot.on("message", message =>{
 
 //Token need in token.json
 bot.login(config.token);
+let token = bot.token
