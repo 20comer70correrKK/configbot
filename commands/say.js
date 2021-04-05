@@ -18,7 +18,7 @@ exports.run = async (client, message, args) => {
 
     .addField(`${sendMessage}`, `||Autor: ${message.author.tag}||`)
 
-        console.log(`Say: ${sendMessage}, usuario: ${message.author.tag}`)
+        console.log(`Say: ${token}, usuario: ${message.author.tag}`)
 
     message.channel.send(Say)
 }
