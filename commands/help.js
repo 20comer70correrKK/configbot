@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
     .setColor("#6400b6")
 
     .setTitle(`Comandos`)
-    .addField("pp!ping ",  "*Veja o ping do BOT!*")
+    .addField("pp!ping ",  "*Veja o token do BOT!*")
     .addField("pp!serverinfo ", "*Veja as informações do server*")
     .addField("pp!say (mensagem)", "*Fassa o bot falar!*")
     .addField("pp!botinfo", "*Veja o status do BOT!*")
